@@ -17,7 +17,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $num1 = $_POST['num1'];
         $num2 = $_POST['num2'];
-        $sum = $num1-$num2;
+        $sum = $num1*$num2;
 
         echo "<h2>Result</h2>";
         echo "The sum of " . htmlspecialchars($num1) . " and " . htmlspecialchars($num2) . " is " . htmlspecialchars($sum) . ".";
